@@ -1,0 +1,5 @@
+[includeIf "gitdir:~/workspace/github.com/"]
+	path = ~/.gitconfig-github
+ 
+[pull]
+	rebase = false

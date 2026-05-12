@@ -4,9 +4,9 @@
 # Path to your oh-my-zsh installation.
 export ZSH="$HOME/.oh-my-zsh"
 export PATH=$PATH:$(go env GOPATH)/bin
-export Cargo="/Users/jinying.che/.cargo/bin"
+export Cargo="$HOME/.cargo/bin"
 export PATH=$PATH:$Cargo
-export PATH="/Users/jinying.che/.local/bin:$PATH"
+export PATH="$HOME/.local/bin:$PATH"
 export GOPATH=$(go env GOPATH)
 export GO111MODULE=on
 export GOPRIVATE=git.garena.com
